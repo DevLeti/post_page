@@ -6,8 +6,8 @@ from django.utils import timezone
 """
 Post : 모델의 이름
 models : Post가 장고 모델임을 의미함. 이 코드 때문에 장고는 Post가 데이터베이스에 저장되어야 한다고 알게 된다.
-
 """
+
 class Post(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     #ForeignKey : 다른 모델에 대한 링크

@@ -1,4 +1,4 @@
-# QNA_Page
+# Post_Page
 django 연습을 위해 만든 repo
 
 ## 시작
